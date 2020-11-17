@@ -114,7 +114,7 @@ To be filled
   
   ### Contributors 
   
-We would like to express our gratitues to our GA Tech/Trilogy Instructor and TA's as well as GA Tech/Trilogy's tutors: Erik Hoverston, Justin Ryes, Andrew Styles and Miguel Chavez for their advice and knowledge.    
+We would like to express our gratitues to our GA Tech/Trilogy Instructor and TA's as well as GA Tech/Trilogy's tutors: Erik Hoverston, Justin Ryes, Andrew Stiles and Miguel Chavez for their advice and knowledge.    
   
   <br/>
   
