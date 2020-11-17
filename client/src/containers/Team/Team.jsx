@@ -3,7 +3,7 @@ import Calle from "./Calle.png";
 import Canales from "./Canales.png";
 import Fleming from "./Fleming.png";
 import Sully from "./Sully.png";
-import Grandma from "./Grandma.png";
+import Walker from "./Walker.png";
 
 function Team() {
 
@@ -56,7 +56,7 @@ function Team() {
 
         <div className="row content-border center mainbox">
         <div className="col s12 m12 l4">
-          <img src={Grandma} height ="200px" width ="200px"  alt ="gangster grandma"></img>
+          <img src={Walker} height ="200px" width ="200px"  alt ="gangster grandma"></img>
                 <a className="btn col s12 vertical-spacer-sm" href="https://github.com/BrandonWalker88" 
                 role="button">Brandon Walker</a>
           </div>

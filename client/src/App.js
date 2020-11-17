@@ -8,7 +8,6 @@ import Team from "./containers/Team/Team";
 import DmDirectory from "./containers/DmDirectory/DmDirectory";
 import DmOne from "./containers/DmOne/DmOne";
 import UpdateForm from "./containers/UpdateForm/UpdateForm";
-import ThreeD from "./containers/ThreeD/ThreeD";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AuthContext from "./context/AuthContext";
 import "materialize-css";
@@ -124,13 +123,12 @@ function App() {
                             component={DmDirectory}
                           />
 
-                          <Route exact path="/DmOne/:id" component={ThreeD} />
+                          <Route exact path="/DmOne/:id" component={DmOne} />
                           <ProtectedRoute
                             exact
                             path="/UpdateForm/:id"
                             component={UpdateForm}
                           />
-                          <Route exact path="/ThreeD/:id" component={ThreeD} />
                           <Route exact path="/Team" component={Team} />
                           <Route exact path="/spellpage" component={Spells} />
                           <Route
@@ -169,4 +167,3 @@ function App() {
 
 export default App;
 
-// eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmFjMjI2NTFjZDQyMjRmNTgxZWE4NDYiLCJlbWFpbCI6ImVzdGVydGVzdGVyMDAwQGdtYWlsLmNvbSIsImlhdCI6MTYwNTExNjY0MX0.OyX_qJTe5JTxjRtxf7lDPteNsYOo6RMwY0GPzPS-Y_g

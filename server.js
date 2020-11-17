@@ -17,7 +17,7 @@ app.use(routes);
 // app.use(authController);
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/only-dungeons-db",
+  process.env.MONGODB_URI || "mongodb://localhost/only-dungeons-db-2",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
