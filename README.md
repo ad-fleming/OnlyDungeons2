@@ -81,12 +81,20 @@ Instillation steps are as follows:
 
 <br/>
 
-### Deployed Application
+## Deployed Application
+<hr>
+
+#### __Deployment Note__
+
+_Please note that this deployment of the App has been scaled back to exclude Three js features in order to imporve stability for users having issues rendering the 3D features of the full site._
 
 <hr/>
-Please click on the link below to be redirected to the live application:
 
-1. https://onlydungeons.herokuapp.com/
+Please find the links for both live deployments below:
+
+[Only Dungeons Lite](https://only-dungeons-lite.herokuapp.com/)
+
+[Only Dungeons Full Site](https://onlydungeons.herokuapp.com/)
 
   <br/>
 
